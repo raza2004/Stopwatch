@@ -1,0 +1,15 @@
+h1{color: rgb(16, 48, 4);
+    background-color: rgb(148, 216, 195);
+    display: inline-block;
+    width: 80px;
+    /* text-align: center; */
+
+}
+body{
+    text-align: center;
+    background-color: rgb(220, 245, 231);
+}
+button{
+    color: rgb(4, 5, 4);
+    background-color: rgb(246, 237, 255);
+}
