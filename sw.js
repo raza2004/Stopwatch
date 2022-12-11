@@ -1,11 +1,10 @@
-"use strict";
-let min = 0;
-let sec = 0;
-let millisec = 0;
+var min = 0;
+var sec = 0;
+var millisec = 0;
 var interval;
-let minH = document.getElementById("min");
-let secH = document.getElementById("sec");
-let millisecH = document.getElementById("millisec");
+var minH = document.getElementById("min");
+var secH = document.getElementById("sec");
+var millisecH = document.getElementById("millisec");
 function watch() {
     millisec++;
     millisecH.innerHTML = millisec;
@@ -14,7 +13,7 @@ function watch() {
         secH.innerHTML = sec;
         millisec = 0;
     }
-    else if (sec >= 10) {
+    else if (sec >= 60) {
         min++;
         minH.innerHTML = min;
         sec = 0;
