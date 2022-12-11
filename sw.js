@@ -14,7 +14,7 @@ function watch() {
         secH.innerHTML = sec;
         millisec = 0;
     }
-    else if (sec >= 10) {
+    else if (sec >= 60) {
         min++;
         minH.innerHTML = min;
         sec = 0;
